@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    Animator _anim;
+    private Animator animator;
 
     void Start()
     {
-        _anim = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.V))
+        //if (input.getkeydown(keycode.v))
         //{
-        //    _anim.Play("Idle");
+        //    _anim.play("idle");
         //}
 
-        //if (Input.GetKeyDown(KeyCode.C))
+        //if (input.getkeydown(keycode.c))
         //{
-        //    _anim.Play("Get");
+        //    _anim.play("get");
         //}
     }
 
@@ -38,8 +38,8 @@ public class Item : MonoBehaviour
     {
         //Destroy(gameObject);
         Debug.Log(other.gameObject.name + " Ç™ê⁄êGÇµÇΩ");
-        // _anim.Play("Get");
-        _anim.SetBool("IsGet", true);
+        animator.SetTrigger("Get");
+        //animator.SetBool("IsGet", true);
     }
 
     private void OnTriggerExit(Collider other)
