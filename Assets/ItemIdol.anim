@@ -20,34 +20,34 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 305.14273, z: 0}
-        outSlope: {x: 0, y: 305.14273, z: 0}
+        inSlope: {x: 0, y: 314.55057, z: 0}
+        outSlope: {x: 0, y: 314.55057, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.36433697, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.31687462, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5
-        value: {x: 0, y: 199.97484, z: 0}
-        inSlope: {x: 0, y: 452.23972, z: 0}
-        outSlope: {x: 0, y: 452.23972, z: 0}
+        value: {x: 0, y: 180.09358, z: 0}
+        inSlope: {x: 0, y: 364.62036, z: 0}
+        outSlope: {x: 0, y: 364.62036, z: 0}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.13575858, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.09301126, z: 0.33333334}
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.21975029, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0, y: 399.43484, z: 0}
-        inSlope: {x: 0, y: 420.1987, z: 0}
-        outSlope: {x: 0, y: 420.1987, z: 0}
+        value: {x: 0, y: 360, z: 0}
+        inSlope: {x: 0, y: 364.0826, z: 0}
+        outSlope: {x: 0, y: 364.0826, z: 0}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.09358525, z: 0.33333334}
+        inWeight: {x: 0.33333334, y: 0.30276728, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: ItemMesh
+    path: 
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -60,7 +60,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 307598838
+      path: 0
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -116,7 +116,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: ItemMesh
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -127,35 +127,35 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: 305.14273
-        outSlope: 305.14273
+        inSlope: 314.55057
+        outSlope: 314.55057
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.36433697
+        outWeight: 0.31687462
       - serializedVersion: 3
         time: 0.5
-        value: 199.97484
-        inSlope: 452.23972
-        outSlope: 452.23972
+        value: 180.09358
+        inSlope: 364.62036
+        outSlope: 364.62036
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.13575858
-        outWeight: 0.09301126
+        inWeight: 0.33333334
+        outWeight: 0.21975029
       - serializedVersion: 3
         time: 1
-        value: 399.43484
-        inSlope: 420.1987
-        outSlope: 420.1987
+        value: 360
+        inSlope: 364.0826
+        outSlope: 364.0826
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.09358525
+        inWeight: 0.30276728
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: ItemMesh
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -185,7 +185,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: ItemMesh
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -198,7 +198,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: ItemMesh
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -210,7 +210,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: ItemMesh
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -222,10 +222,10 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: ItemMesh
+    path: 
     classID: 4
     script: {fileID: 0}
     flags: 0
-  m_HasGenericRootTransform: 0
+  m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []

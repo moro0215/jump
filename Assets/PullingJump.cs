@@ -6,14 +6,14 @@ public class PullingJump : MonoBehaviour
 {
     [SerializeField] float groundAngleLimit = 30;
     [SerializeField] float jumpSpeed = 10f;
-    Rigidbody rb;
+    Rigidbody rigidBody;
     Vector3 clickPosition;
     /// <summary>ジャンプ可否フラグ</summary>
     bool canJump = false;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rigidBody = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -27,7 +27,7 @@ public class PullingJump : MonoBehaviour
             Vector3 dragVector = clickPosition - Input.mousePosition;
             // ベクトルの長さを得る            
             float size = dragVector.magnitude;
-            rb.velocity = dragVector.normalized * jumpSpeed;
+            rigidBody.velocity = dragVector.normalized * jumpSpeed * 1.5f;
         }   // 離したらジャンプ
     }
 
