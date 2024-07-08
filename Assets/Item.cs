@@ -5,10 +5,12 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     private Animator animator;
+    private AudioSource audioSource;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+       // audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -39,6 +41,8 @@ public class Item : MonoBehaviour
         //Destroy(gameObject);
         Debug.Log(other.gameObject.name + " Ç™ê⁄êGÇµÇΩ");
         animator.SetTrigger("Get");
+        //audioSource.Play();
+        GetComponent<AudioSource>().Play();
         //animator.SetBool("IsGet", true);
     }
 

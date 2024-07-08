@@ -19,19 +19,19 @@ public class MoveWall : MonoBehaviour
         transform.position = _initialPostion + Vector3.up * y;
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            collision.gameObject.transform.SetParent(transform);
-        }
-    }
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.tag == "Player")
+    //    {
+    //        collision.gameObject.transform.SetParent(transform);
+    //    }
+    //}
 
-    void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            collision.gameObject.transform.SetParent(null);
-        }
-    }
+    //void OnCollisionExit(Collision collision)
+    //{
+    //    if (collision.gameObject.tag == "Player")
+    //    {
+    //        collision.gameObject.transform.SetParent(null);
+    //    }
+    //}
 }
