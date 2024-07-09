@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Item : MonoBehaviour
 {
     private Animator animator;
     private AudioSource audioSource;
+
+    public GameObject clearText;
+
 
     void Start()
     {
@@ -24,6 +28,7 @@ public class Item : MonoBehaviour
         //{
         //    _anim.play("get");
         //}
+       
     }
 
     /// <summary>
@@ -44,10 +49,14 @@ public class Item : MonoBehaviour
         //audioSource.Play();
         GetComponent<AudioSource>().Play();
         //animator.SetBool("IsGet", true);
+        
+        clearText.SetActive(true);
     }
 
     private void OnTriggerExit(Collider other)
     {
         Debug.Log(other.gameObject.name + " ‚ª—£‚ê‚½");
     }
+    
+   
 }

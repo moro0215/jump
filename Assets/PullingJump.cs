@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PullingJump : MonoBehaviour
 {
@@ -29,6 +30,11 @@ public class PullingJump : MonoBehaviour
             float size = dragVector.magnitude;
             rigidBody.velocity = dragVector.normalized * jumpSpeed * 1.5f;
         }   // 離したらジャンプ
+
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            SceneManager.LoadScene(1);//ゲームのリセット
+        }
     }
 
 
